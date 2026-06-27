@@ -1,4 +1,4 @@
-# jupyter — исследования и замеры
+# jupyter - исследования и замеры
 
 Ноутбук `edge_ai.ipynb` повторяет выкладки реферата реальными запусками: загрузка
 MobileNetV2 и V3-Small, экспорт в ONNX и Core ML, сравнение размеров и латентности на CPU,
@@ -8,12 +8,10 @@ INT8-квантизация и причина несовместимости SE-
 
 ```bash
 cd jupyter
-python3.11 -m venv .venv && source .venv/bin/activate   # coremltools требует Python < 3.13
+python3.11 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-jupyter notebook edge_ai.ipynb        # выполнить сверху вниз
+jupyter notebook edge_ai.ipynb
 ```
-
-Все числа вычисляются в ячейках, ничего не зашито. Артефакты пишутся в `artifacts/`.
 
 ## Ключевой результат
 
