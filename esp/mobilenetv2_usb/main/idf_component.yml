@@ -1,0 +1,14 @@
+# Манифест компонента. Адаптировано из espressif/esp-dl examples/mobilenetv2_cls/main/idf_component.yml
+#   https://github.com/espressif/esp-dl/blob/master/examples/mobilenetv2_cls/main/idf_component.yml
+#
+# imagenet_cls поставляет предварительно квантованный классификатор ImageNet MobileNetV2 (INT8)
+# и подтягивает esp-dl как транзитивную зависимость. esp-dl фиксируем явно, чтобы версия была
+# воспроизводимой. В исходном примере imagenet_cls переопределяется локальным путём внутри
+# дерева esp-dl; здесь берём его прямо из реестра компонентов, чтобы проект был самодостаточным.
+dependencies:
+  idf:
+    version: ">=5.3"          # проверено на ESP-IDF v6.0.1 (см. ../README.md)
+  espressif/esp-dl:
+    version: "*"
+  espressif/imagenet_cls:
+    version: "*"

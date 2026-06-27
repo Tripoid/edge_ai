@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0000000000000000000020 /* EdgeAIiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0000000000000000000010 /* EdgeAIiOSApp.swift */; };
+		2B0000000000000000000021 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0000000000000000000011 /* ContentView.swift */; };
+		2B0000000000000000000022 /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0000000000000000000012 /* CameraModel.swift */; };
+		2B0000000000000000000023 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0000000000000000000013 /* CameraPreview.swift */; };
+		2B0000000000000000000024 /* FrameClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0000000000000000000014 /* FrameClassifier.swift */; };
+		2B0000000000000000000025 /* Model/MobileNetV3Small.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 2B0000000000000000000016 /* Model/MobileNetV3Small.mlpackage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B000000000000000000000F /* EdgeAIiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdgeAIiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0000000000000000000010 /* EdgeAIiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeAIiOSApp.swift; sourceTree = "<group>"; };
+		2B0000000000000000000011 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B0000000000000000000012 /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		2B0000000000000000000013 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		2B0000000000000000000014 /* FrameClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameClassifier.swift; sourceTree = "<group>"; };
+		2B0000000000000000000016 /* Model/MobileNetV3Small.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = Model/MobileNetV3Small.mlpackage; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B000000000000000000000D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B0000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				2B0000000000000000000004 /* EdgeAIiOS */,
+				2B0000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B0000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B000000000000000000000F /* EdgeAIiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B0000000000000000000004 /* EdgeAIiOS */ = {
+			isa = PBXGroup;
+			children = (
+				2B0000000000000000000010 /* EdgeAIiOSApp.swift */,
+				2B0000000000000000000011 /* ContentView.swift */,
+				2B0000000000000000000012 /* CameraModel.swift */,
+				2B0000000000000000000013 /* CameraPreview.swift */,
+				2B0000000000000000000014 /* FrameClassifier.swift */,
+				2B0000000000000000000016 /* Model/MobileNetV3Small.mlpackage */,
+			);
+			path = EdgeAIiOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B0000000000000000000005 /* EdgeAIiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B0000000000000000000006 /* Build configuration list for PBXNativeTarget "EdgeAIiOS" */;
+			buildPhases = (
+				2B000000000000000000000C /* Sources */,
+				2B000000000000000000000D /* Frameworks */,
+				2B000000000000000000000E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EdgeAIiOS;
+			productName = EdgeAIiOS;
+			productReference = 2B000000000000000000000F /* EdgeAIiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					2B0000000000000000000005 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+				};
+			};
+			buildConfigurationList = 2B0000000000000000000007 /* Build configuration list for PBXProject "EdgeAIiOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B0000000000000000000002;
+			productRefGroup = 2B0000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B0000000000000000000005 /* EdgeAIiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B000000000000000000000E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B000000000000000000000C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0000000000000000000020 /* EdgeAIiOSApp.swift in Sources */,
+				2B0000000000000000000021 /* ContentView.swift in Sources */,
+				2B0000000000000000000022 /* CameraModel.swift in Sources */,
+				2B0000000000000000000023 /* CameraPreview.swift in Sources */,
+				2B0000000000000000000024 /* FrameClassifier.swift in Sources */,
+				2B0000000000000000000025 /* Model/MobileNetV3Small.mlpackage in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B0000000000000000000008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B0000000000000000000009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B000000000000000000000A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8SP6F5KA5Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Edge AI использует камеру для классификации изображения в реальном времени на устройстве.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.EdgeAIiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B000000000000000000000B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8SP6F5KA5Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Edge AI использует камеру для классификации изображения в реальном времени на устройстве.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.EdgeAIiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B0000000000000000000006 /* Build configuration list for PBXNativeTarget "EdgeAIiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B000000000000000000000A /* Debug */,
+				2B000000000000000000000B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B0000000000000000000007 /* Build configuration list for PBXProject "EdgeAIiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0000000000000000000008 /* Debug */,
+				2B0000000000000000000009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B0000000000000000000001 /* Project object */;
+}

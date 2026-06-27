@@ -1,0 +1,8 @@
+# Кастомная таблица разделов для N16R8 (16 МБ flash).
+# Модель MobileNetV2 INT8 вшита в образ приложения (flash rodata), поэтому app-раздел
+# factory сделан с запасом (6 МБ). Смещения назначаются автоматически.
+# Формат: https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/api-guides/partition-tables.html
+# Name,     Type, SubType, Offset,  Size
+nvs,        data, nvs,     ,        0x6000
+phy_init,   data, phy,     ,        0x1000
+factory,    app,  factory, ,        0x600000

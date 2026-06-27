@@ -1,0 +1,14 @@
+{
+  "idf.currentSetup": "/Users/aidar/.espressif/v6.0.1/esp-idf",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.customExtraVars": {},
+  "clangd.path": "/Users/aidar/.espressif/tools/esp-clang/esp-20.1.1_20250829/esp-clang/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=/Users/aidar/Desktop/practice/build"
+  ],
+  "idf.port": "/dev/tty.usbmodem101"
+}
