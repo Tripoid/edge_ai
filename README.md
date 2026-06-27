@@ -11,7 +11,7 @@ ESP-DL**.
 | [`iphone/`](iphone/) | iPhone 15 (A16) | MobileNetV3-Small | Swift, Vision, Core ML |
 | [`esp/`](esp/) | ESP32-S3 | **MobileNetV2 (INT8)** | C/C++, ESP-IDF, ESP-DL |
 
-На ESP32 — MobileNetV2, а не V3-Small: squeeze-and-excite блоки V3-Small не квантуются под
+На ESP32 - MobileNetV2, а не V3-Small: squeeze-and-excite блоки V3-Small не квантуются под
 ESP-DL (подробнее в [`esp/README.md`](esp/README.md) и в 6 ячейке ноутбука).
 
 ## Результаты
